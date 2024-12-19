@@ -9,12 +9,13 @@ int main()
 
 
     CLIENT clients[] = {
-        {"Zalupenko", 52, 200000},
-        {"Obrigan", 69, 150000},
+        {"Igor", 52, 200000},
+        {"Yaroslav", 69, 150000},
+        {"Andrey", 30, 190000}
 
     };
 
-    print_array(clients, 2);
+    print_array(clients, 3);
 
     return 0;
 }
